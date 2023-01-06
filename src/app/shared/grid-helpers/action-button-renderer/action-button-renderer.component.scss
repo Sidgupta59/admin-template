@@ -1,0 +1,23 @@
+.action_icons {
+    width: 100%;
+    height: 35px;
+    margin-top: 4px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.cursor-p {
+    cursor: pointer;
+}
+.trash-icon {
+    content: url("../../../../assets/Vector.png");
+}
+.edit-icon {
+    content: url("../../../../assets/edit.png");
+}
+.trash-bg,
+.edit-bg {
+    background: #d9d9d9;
+    opacity: 0.4;
+    border-radius: 4px;
+}

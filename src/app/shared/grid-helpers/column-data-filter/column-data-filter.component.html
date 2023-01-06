@@ -1,0 +1,9 @@
+<div class="filter_container">
+  <div class="input_section">
+    <input class="custom_input" type="text" [(ngModel)]="searchFilterOptionsBy" />
+  </div>
+  <div *ngFor="let item of filterOptionData | filter : searchFilterOptionsBy | sort: 'asc'">
+    <input class="custom_chekbox" type="checkbox" [value]="item" (change)="onChange(item, $event.target.checked)" />
+    <span>{{ item }}</span>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+$size: 220px;
+$font-color: #545454;
+$font-size: 14px;
+.filter_container{
+    width: $size;
+    height: max-content;
+    display: inline-block;
+    margin: 10px 20px;
+    border: none;
+    .input_section{
+        padding-bottom: 10px;
+        .custom_input{
+            border: 0.5px solid #bdbdbd;
+            border-radius: 5px;
+            padding: 8px 5px;
+            font-size: 14px;
+            color: $font-color;
+            font-size: $font-size;
+        }
+    }
+    .custom_chekbox{
+        margin: 10px;
+    }
+    span{
+        color: $font-color;
+        font-size: $font-size;
+    }
+}

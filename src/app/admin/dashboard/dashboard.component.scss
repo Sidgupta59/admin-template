@@ -1,0 +1,61 @@
+.dashboard-patient-card {
+    background: #7b0080;
+    border-radius: 10px;
+    margin: 0px 6px;
+}
+.padding-cards {
+    padding: 20px;
+}
+.number {
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+}
+.card-text {
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+}
+.dashboard-doctor-card {
+    background: #ff7c89;
+    border-radius: 10px;
+    margin: 0px 6px;
+}
+
+.dashboard-staff-card {
+    background: purple;
+    border-radius: 10px;
+    margin: 0px 6px;
+}
+
+.appointment-card,
+.income-card {
+    background: #ffffff;
+    border-radius: 10px;
+    margin: 0px 6px;
+}
+.card-headings {
+    font-weight: 500;
+    font-size: 18px;
+    color: #235884;
+}
+.title {
+    font-weight: 500;
+    color: black;
+}
+.banner {
+    height: 250px;
+    border-radius: 20px;
+}
+.scroll-card {
+    &::-webkit-scrollbar {
+        width: 0.2rem;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: purple;
+        border-radius: 10px;
+    }
+    height: 39.9rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

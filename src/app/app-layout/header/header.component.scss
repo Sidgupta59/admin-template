@@ -1,0 +1,53 @@
+.header-index {
+    z-index: 99;
+}
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -3rem;
+    margin-top: 0.125rem;
+}
+.bg-body {
+    background: #e5e5e5 !important;
+}
+.cursor-p {
+    cursor: pointer;
+}
+.header-dropdown {
+    margin-left: auto;
+}
+.bell-margin {
+    margin: 0.5rem 2rem 0.5rem 0.4rem;
+}
+.title {
+    margin: 10px 50px;
+    font-weight: 500;
+    color: grey;
+}
+.date {
+    font-weight: 500;
+    color: grey;
+    margin: 10px;
+}
+.search-margin {
+    margin: 0.3rem;
+    background-color: #f5f5fb;
+    padding: 8px;
+    border-radius: 5px;
+}
+.avatar {
+    border: 1px solid #d7e4ef;
+}
+.avatar-text-above {
+    font-weight: 600;
+    font-size: 14px;
+    color: #18232d;
+}
+.avatar-text-below {
+    font-weight: 400;
+    font-size: 12px;
+    color: #75798d;
+}
+
+.navbar {
+    padding: 1.5rem 0.5rem;
+}

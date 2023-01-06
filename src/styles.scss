@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "ag-grid-community/dist/styles/ag-grid.css";
+@import "ag-grid-community/dist/styles/ag-theme-alpine.css";
+
+body {
+    overflow: hidden !important;
+    position: relative;
+    background-color: #e5e5e5;
+}
+.row > * {
+    padding: 0 !important;
+}
+
+.text-right {
+    text-align: right;
+}
+.cursor-p {
+    cursor: pointer;
+}
+.justify-space-between {
+    justify-content: space-between;
+}
+.justify-space-around {
+    justify-content: space-around;
+}

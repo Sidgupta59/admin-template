@@ -1,0 +1,137 @@
+// .cursor-p {
+//     cursor: pointer;
+// }
+// .active {
+//     background: #dcfff0;
+//     border-radius: 2px;
+//     color: #235884 !important;
+// }
+// .list-group {
+//     width: 100%;
+//     background: #fefefe;
+//     box-shadow: 0px 2px 3px rgba(158, 171, 189, 0.3);
+//     border-radius: 0px;
+//     padding: 1rem;
+//     height: 100vh;
+// }
+
+// .list-config {
+//     width: 100%;
+//     background: #fefefe;
+// }
+
+// .list-group-item {
+//     font-weight: 400;
+//     font-size: 16px;
+//     color: #235884 !important;
+//     border: 0;
+//     padding: 0 1rem;
+// }
+
+.sidenav {
+    background-color: #fefefe;
+    transition: all 0.5s ease;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 5rem;
+    height: 100vh;
+    box-shadow: 0px 2px 3px rgba(158, 171, 189, 0.3);
+
+    .logo-container {
+        display: flex;
+        align-items: center;
+        padding: 0.938rem 0.938rem 0 0.938rem;
+        width: 100%;
+        .logo img {
+            text-align: center;
+            width: 2rem;
+            position: absolute;
+            left: 17.5rem;
+            top: 2.5rem;
+            min-width: 2rem;
+            cursor: pointer;
+            border: none;
+        }
+        .logo-text img {
+            font-size: 2rem;
+            display: table-row-group;
+        }
+    }
+}
+
+.sidenav-collapsed {
+    width: 16.5625rem;
+}
+
+.sidenav-nav {
+    list-style: none;
+    padding: 0.5rem 0rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100% - 3.65rem);
+    cursor: pointer;
+
+    .sidenav-nav-item {
+        width: 100%;
+        margin-bottom: 0.625rem;
+
+        .sidenav-nav-link {
+            display: flex;
+            align-items: center;
+            height: 3rem;
+            border-radius: 0.625rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+
+            .sidenav-link-icon {
+                font-size: 22px;
+                color: #235884;
+                width: 2rem;
+                min-width: 2rem;
+                margin: 0 0.5rem 0 1.5rem;
+                text-align: center;
+            }
+            .sidenav-link-text {
+                margin-left: 0.5rem;
+                color: #235884;
+            }
+        }
+    }
+}
+.active {
+    background: #dcfff0;
+    border-radius: 2px;
+    color: #235884 !important;
+
+    .sidenav-link-icon,
+    .sidenav-link-text {
+        color: #000;
+    }
+}
+.list-group-item {
+    font-weight: 400;
+    font-size: 16px;
+    color: #235884 !important;
+    border: 0;
+    padding: 0 1rem;
+}
+
+.configure {
+    content: url(../../../assets/configure.svg);
+}
+.scroll-card {
+    &::-webkit-scrollbar {
+        width: 0.2rem;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: #e9eef3;
+        border-radius: 10px;
+    }
+    height: 35vh;
+    overflow-y: auto;
+    padding-right: 5px;
+    overflow-x: hidden;
+}
